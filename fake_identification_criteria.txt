@@ -1,0 +1,14 @@
+Fake Account Identification Criteria
+==================================
+
+Fake accounts are identified based on the following key behavioral and activity patterns analyzed by the AI model:
+
+- Low Account Age: Very new accounts (e.g., less than 30 days old), indicating potential spam or bot creation.
+- High Post Frequency: Excessive posting (e.g., over 500 posts), suggesting automated or spam behavior.
+- Low Friend/Follower Count: Few connections (e.g., under 50 friends), typical of fake profiles that haven't built genuine networks.
+- High Link Ratio: High proportion of posts containing links (e.g., over 50%), often used for phishing or promotion.
+- High Duplicate Posts: Many repeated or copied content (e.g., over 20 duplicates), indicating lack of originality.
+- Low Engagement: Low average likes (e.g., under 10) and low comment ratios (e.g., under 10%), showing minimal genuine interaction.
+- Overall Risk Score: Profiles scoring high on multiple suspicious factors are flagged as fake with high confidence.
+
+The model combines these features using machine learning to predict "Fake Profile" when the probability exceeds the threshold. For real profiles, these patterns are typically reversed (e.g., older accounts with moderate, engaging activity).
